@@ -1,0 +1,14 @@
+../data/dracula.txt
+Title: Dracula
+../data/frankenstein.txt
+Title: Frankenstein
+../data/jane_eyre.txt
+Title: Jane Eyre
+../data/moby_dick.txt
+Title: Moby Dick
+../data/sense_and_sensibility.txt
+Title: Sense and Sensibility
+../data/sherlock_holmes.txt
+Title: The Adventures of Sherlock Holmes
+../data/time_machine.txt
+Title: The Time Machine
