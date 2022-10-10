@@ -4,9 +4,7 @@
 
 Zipf's Law states that the most common word in a body of text (example a novel) appears twice as often as the second most common word, thrice as often as the third most common word and so on. That is, rank of a word is inversely proportional to the frequency of its occurence. 
 
-This repository of scripts tally the occurences of frequently used words in a novel and then draws a scatter plot to study if Zipf's Law applies. The scripts are written in Python and executed at the command line. They use argparse, sys, csv, scipy, numpy, pandas and other common Python packages. Some Unix Shell elements are also used. The data is a collection of novels in txt format downloaded from www.gutenberg.org, the famous free e-Library project. 
-
-Further, the scripts verify deviations from Zipf's Law by fitting a curve to the data (a model that uses maximum likelihood estimation). The results are included in the repository. 
+This repository has scripts that tally the occurences of frequently used words in a novel and then draw a scatter plot to study if Zipf's Law applies. They are written in Python and executed at the command line. Some packages used are: argparse, sys, csv, scipy, numpy, pandas, so please ensure they are intalled before running scripts from this repository. Some Unix Shell elements are also used. The data is a collection of novels in txt format downloaded from www.gutenberg.org, the famous free e-Library project. Further, the scripts verify deviations from Zipf's Law by fitting a curve to the data (a model that uses maximum likelihood estimation). Resulting log-log plots are included. 
 
 Here is a brief description of what each script does: 
 
@@ -28,11 +26,11 @@ B. Not Important
 This is a Unix Shell script that takes a novel.txt and extracts a list authors, titles and release dates. These are then saved in separate files in ./results/ folder.
 
 2. script_template.py : 
-This is a simple Python script which describes a command that can receive an input file at the terminal and states the name of the output file and the format it should be saved in.
+This is an executable Python script which describes how to design a command to receive an input file at the command line and how to ensure the output file satisfies given criteria. It is a template to write command line Python scripts with options for more input. 
 
 3. collate.py :
 This Python script collates most frequent words across novels. It is not used much in our analysis.
 
 4. count_script.py :
-This is not a command line script, but a Python function. It takes a txt file and gives n most frequent words as a dictionary or a csv file. 
+This is not a command line script, but a Python function. It takes a txt file and gives n most frequent words as a dictionary or a csv file. It is not used in our analysis.
 
