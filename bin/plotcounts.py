@@ -5,7 +5,6 @@ import pandas as pd
 import numpy as np
 import scipy
 from scipy.optimize import minimize_scalar
-#.minimize_scalar as min_scal
 
 
 def nlog_likelihood(beta, counts):
